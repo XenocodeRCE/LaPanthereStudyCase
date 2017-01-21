@@ -47,6 +47,7 @@ namespace LaPanthereStudyCase
                     {
                         var field = (FieldDef)instr[i + 1].Operand;
                         ReplaceCtorLDCI4(module, instr[i].GetLdcI4Value(), field);
+
                     }
                 }
             }
